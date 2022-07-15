@@ -35,7 +35,7 @@ class Solution:
         prev = ""
         counter = 0
         for current in range(len(hi_string)):
-            if prev == "h" and hi_string[current] == "i":
+            if (prev == "h" or prev == "H") and (hi_string[current] == "i" or hi_string[current] == "I"):
                 counter += 1 
             prev = hi_string[current]
             print(hi_string[current])
