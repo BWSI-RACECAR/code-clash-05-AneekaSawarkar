@@ -24,7 +24,7 @@ Input: “his job is to make people laugh”;   Output: 1
 Input: “How high can his white dog hike”;   Output: 4
 """
 
-
+#kjkkkj
 class Solution:
     def hi_finder(self,hi_string):
         # type hi_string: string
